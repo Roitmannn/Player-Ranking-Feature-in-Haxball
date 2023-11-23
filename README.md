@@ -1,4 +1,4 @@
-![image](https://github.com/Roitmannn/Player-Ranking-Feature-in-Haxball/assets/91317500/a716ac63-bfdb-46d9-9b0e-4f7bf0ba461f)# Haxball Player Ranking
+# Haxball Player Ranking
 
 functionality for locally ranking players in the Haxball client.
 
