@@ -1,0 +1,15 @@
+{
+    "content_scripts": [ {
+       "js": [ "content-script.js" ],
+       "matches": [ "https://*.haxball.com/play*" ],
+       "run_at": "document_idle"
+    } ],
+    "description": "Rank other players! Click on player's ping to open rank's menu",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0tJBZI5WKurhNWoNbX+Mqf1uvus1y9GQnmS8Y2kjrSDaZ0sMs9CWv+RACxR+v6DMfFm7otcpphYYgaLrxiNRgvgj3OhdjewDKhF/Wlwp65OuhdDjnWvYGfgTdANzoaJtPNmT0/idHLS+nPkwFKVwLHzg+MNYj4BL9Dx/fnlnAAiNUgJabAQo6rgSFAAkPGhaWDASbKlGiAiaFRJQrzSKRFjsWw5TZ2sZZQ8ano4cdZR5z8ITrGTufIqo1seNWxukL0EvsqvLpINjfjdrxOqfsFZZQOttTQzIDUarYvfYOHcqlI0j/vl+UxVpMApRyVRigsp6d8EPJFDSDK8ZxZx9awIDAQAB",
+    "manifest_version": 3,
+    "name": "Haxball Player Ranking Extension",
+    "permissions": [ "storage" ],
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "7.1.1"
+ }
+ 
